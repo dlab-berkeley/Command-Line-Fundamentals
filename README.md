@@ -7,21 +7,13 @@
 This repository contains the materials for D-Lab [WorkshopName] workshop. 
 
 ### Prerequisites
-We recommend attending [D-LabWorkshop1](D-LabWorkshop1Link),
-[D-LabWorkshop2](D-LabWorkshop2Link), and
-[AdditionalWorkshopsAsNeeded](LinksToWorkshops) prior to this workshop.
+No prior experience in either Bash or Git is necessary.
 
 Check D-Lab's [Learning Pathways](https://dlab-berkeley.github.io/dlab-workshops/python_path.html) to figure out which of our workshops to take!
 
 ## Workshop Goals
 
-In this workshop, we provide [WorkshopGoal]. First, we’ll cover [Aim1]. Then,
-we’ll explore [Aim2]. 
-
-_Only if necessary:_ If you are not familiar with material in
-[D-LabWorkshop1](D-LabWorkshop1Link), [D-LabWorkshop2](D-LabWorkshop2Link), and
-[AdditionalWorkshopsAsNeeded](LinksToWorkshops), we recommend attending those
-workshops first.
+In this workshop, we provide an introduction to how to interact with your computer via terminal. We are going to focus on Bash(Bourne-Again SHell) or Zsh(Z shell), which are one of the most commonly used Unix/Linux shells. This workshop is designed to be 1-hour long. 
 
 ## Learning Objectives
 
@@ -39,18 +31,19 @@ This workshop does not cover the following:
 
 ## Installation Instructions
 
-We will use [RStudio/Python] to go through the workshop materials, which requires installation of [Software]. Complete the following steps:
+Before attending the workshop, please ensure you have gone through these
+instructions.
 
-1. This step(s) details software to download, with a link.
-2. Download these workshop materials:
-    * Click the green "Code" button in the top right of the repository information.
-    * Click "Download Zip".
-    * Extract this file to a folder on your computer where you can easily access it (we recommend Desktop).
-3. Optional: if you’re familiar with git, you can instead clone this repository by opening a terminal and entering [GitCloneCommand].
+You'll need to make sure we can use bash on your computer. 
 
-## Is [Language] not Working on Your Computer?
+* **Windows:** You can install `git bash` via [git for
+  Windows](https://gitforwindows.org).
+* **Mac:** We can use Terminal on Mac. Applications > Terminal
+* **Linux:** We can use Terminal on Linux. _____ > Terminal _
 
-If you do not have [Language] installed and the materials loaded on your
+## Is Command Line/Bash not Working on Your Computer?
+
+If you do not have Bash installed and the materials loaded on your
 workshop by the time it starts, we *strongly* recommend using the UC Berkeley
 Datahub to run the materials for these lessons. You can access the DataHub by
 clicking the following button:
@@ -109,5 +102,4 @@ Here are other [Language] workshops offered by the D-Lab:
 
 # Contributors
 
-**Provide a list of contributors here, with links to their webpages (D-Lab or
-private).**
+Leah Lee
