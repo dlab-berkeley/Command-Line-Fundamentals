@@ -19,15 +19,10 @@ In this workshop, we provide an introduction to how to interact with your comput
 
 After this workshop, you will be able to:
 
-- [LearningObjective1].
-- [LearningObjective2].
-- [LearningObjective3].
-
-This workshop does not cover the following:
-
-- [NotCovered1]. These are covered in [D-LabWorkshopName](URL).
-- [NotCovered2]. These are covered in [D-LabWorkshopName](URL).
-
+- Understand the role of the command shell in operating system interactions.
+- Understand and navigate through directories and paths.
+- Practice creating, moving, and deleting files and directories.
+- Use pipes and redirection to combine commands.
 
 ## Installation Instructions
 
@@ -36,8 +31,7 @@ instructions.
 
 You'll need to make sure we can use bash on your computer. 
 
-* **Windows:** You can install `git bash` via [git for
-  Windows](https://gitforwindows.org).
+* **Windows:** You can install `git bash` via [git for Windows](https://gitforwindows.org).
 * **Mac:** We can use Terminal on Mac. Applications > Terminal
 * **Linux:** We can use Terminal on Linux. _____ > Terminal _
 
