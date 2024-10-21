@@ -50,7 +50,7 @@ Let's open a Command-Line Interface of your choice. For Mac and Linux, you can f
 What you see is in the format of: 
 **Username @ Hostname Directory $** <br>
 <br>
-![](../img/terminal.png)
+![](../images/terminal.png)
 
 The anatomy of a basic terminal prompt is simple: you'll usually have a username (leftmost) followed by an at symbol (@), followed by the hostname (a fancy way of saying what machine you're on), and then a prompt, which might be a dollar sign followed by a rectangular block. The dollar sign (or whatever prompt symbol is there) indicates where user input starts. The rectangular block is your cursor.<br>
 
