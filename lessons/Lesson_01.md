@@ -26,7 +26,7 @@ Your terminal might run a **bash** shell, which is one of the most commonly used
 💡 **Tip**: `ps` will tell you what kind of shell you are using<br>
 
 ### Why and when to use command line? 
-**Question:** Why are you here? Why do you want to learn how to use command line?<br>
+🔔 **Question:** Why are you here? Why do you want to learn how to use command line?<br>
 <br>
 Another way to interact with a computer is through a graphical user interface (GUI), a way for users to interact with electronic devices using visual indicators and graphical icons.
 Interacting with computers with command line could be more **powerful, flexible,** and **productive**: <br>
