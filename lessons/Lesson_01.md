@@ -48,8 +48,10 @@ Let's open a Command-Line Interface of your choice. For Mac and Linux, you can f
 🔔 **Question:** When you turn on the Terminal / CLI of your choice, what does the last line of text say? <br>
 <br>
 What you see is in the format of: 
-**Username @ Hostname Directory %** <br>
+**Username @ Hostname Directory $** <br>
 <br>
+![](../img/terminal.png)
+
 The anatomy of a basic terminal prompt is simple: you'll usually have a username (leftmost) followed by an at symbol (@), followed by the hostname (a fancy way of saying what machine you're on), and then a prompt, which might be a dollar sign followed by a rectangular block. The dollar sign (or whatever prompt symbol is there) indicates where user input starts. The rectangular block is your cursor.<br>
 
 Your prompt might not look like this! Some prompts can be pretty fancy, and contain a lot of useful information to the user. The only thing that matters right now is entering input.<br>
