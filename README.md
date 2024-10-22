@@ -4,7 +4,7 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](BINDER_LINK_HERE)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
-This repository contains the materials for D-Lab [WorkshopName] workshop. 
+This repository contains the materials for D-Lab Command Line workshop. 
 
 ### Prerequisites
 No prior experience in either Bash or Git is necessary.
@@ -59,21 +59,12 @@ If you don't have a Berkeley CalNet ID, you can still run these lessons in the c
 By using this button, however, you cannot save your work.
 
 
-## Run the Code
-
-Now that you have all the required software and materials, you need to run the code:
-
-Provide instructions on running the code, including how to load relevant software (RStudio, Jupyter Notebooks, etc.) and which file to open up. See other repositories for examples.
-
-Additionally, provide instructions on how to run code once it’s open (running Jupyter cells, RMarkdown cells, etc.).
-
 # Additional Resources
 
-Check out the following resources to learn more about [Workshop topics]:
-
-* [Resource1](LinkToResource1): _Explain Resource 1_
-* [Resource2](LinkToResource2): _Explain Resource 2_
-* [...]
+Check out the following resources to learn more about Command Line/Bash:
+[Software Carpentry](https://software-carpentry.org/lessons/):
+* [The Unix Shell](http://swcarpentry.github.io/shell-novice/) ([La Terminal de
+  Unix](https://swcarpentry.github.io/shell-novice-es/))
 
 
 # About the UC Berkeley D-Lab
@@ -85,4 +76,9 @@ Visit the [D-Lab homepage](https://dlab.berkeley.edu/) to learn more about us. Y
 
 # Contributors
 
-Leah Lee
+* [Leah Lee](https://dlab.berkeley.edu/people/leah-lee)
+* [Tom van Nuenen](https://dlab.berkeley.edu/people/tom-van-nuenen)
+* [Pratik Sachdeva](https://dlab.berkeley.edu/people/pratik-sachdeva)
+* [Evan Muzzall](https://dlab.berkeley.edu/people/evan-muzzall)
+* [Aniket Kesari](https://dlab.berkeley.edu/people/aniket-kesari)
+* [Aaron Culich](https://dlab.berkeley.edu/people/aaron-culich)
