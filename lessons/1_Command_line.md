@@ -1,12 +1,12 @@
 # D-Lab Command Line Workshop
-📝 **Poll**: What operating system do you use? Have you used command line? If yes, what program did you use? 
+📝 **Poll** {Command Line}{1-1}: What operating system do you use? Have you used command line? If yes, what program did you use? 
 
 ---
 **_Learning Objectives_:**  
 1. Understand the role of the command shell in operating system interactions.
 2. Understand and navigate through directories and paths.
-3. Practice creating, moving, and deleting files and directories.
-4. Use pipes and redirection to combine commands.
+3. Use command line for creating, moving, and deleting files and directories.
+4. Apply pipes and redirection to combine commands.
 ---
 
 ## Introduction to Command Line
@@ -62,7 +62,7 @@ Your prompt might not look like this! Some prompts can be pretty fancy, and cont
 
 ## Navigating File system
 
-The shell allows us to interact with our file system in different ways: navigating through our folders, creating new files, editing existing ones, etc. We can also run software from the terminal. For example, you might be familiar with running a Jupyter Labs or Python from the terminal, or using `conda` environments.
+The shell allows us to interact with our file system in different ways: navigating through our folders, creating new files, editing existing ones, etc. First we need to understand which directory we are currently in.
 
 ### Working Directory
 🔔 **Question:** Type `pwd` and press enter. What output did you get? <br>
@@ -129,27 +129,20 @@ How can we view files? This depends on the type of file we're working with, whic
 * `cat`: View all the contents of a file. This command is short for "concatenate", because it can be applied to multiple files.
 * `less`: This is useful when your file is too big for `cat`, and you quickly just want to see a small portion of it.
 
+Let's move to `data` folder and use `cat` and `less` to read `workshops.txt` file. 
 🔔 **Question:** When should we use `less` instead of `cat`? <br>
 
 These commands are useful for quickly viewing files, but how about editing
 files? There are several programs in bash you can use to do this: `vim`, `nano`,
 and `emacs` are some examples.
 
-`vim` is most likely to already be installed on your computer, so you can give
-that a shot. There's a whole assortment of keyboard shortcuts for using `vim`,
-but here's enough to create a simple file:
+We will try using `nano` to read and edit files. 
 
-1. `vim text.txt` to open up a file called `text.txt`.
-2. By default, `vim` opens the file in **view** mode. You can't edit it right
-   now - you need to switch to **insert** mode. Press `i` to switch to insert
-   mode.
-3. Add some text while in insert mode.
-4. Press `Esc` to exit insert mode.
-5. To save and quit the file, you need to go to command mode. Press `:` to enter
-   command mode.
-6. Enter `wq` followed by `Enter`. This is telling `vim` to **w**rite the
-   changes and **q**uit.
-
+1. **Open a file**: `nano text.txt` to open up a file called `text.txt`.
+2. **Edit text**: Start typing to edit the file directly. Use arrow keys to move the cursor. 
+3. **Save your changes**: Press `Ctrl + O` (WriteOut) to save. You will be prompted to confirm the file name. Press `Enter` to confirm. 
+4. **Exit `nano`**: Press `Ctrl + X` to exit. 
+🥊 Open `Workshops.txt` and add this workshop to the list of workshops.<br>
 
 
 ---
@@ -160,7 +153,13 @@ One of advantages of using the command line interface is the flexibility in inte
 * **Pipes** (`|`); Connects the output of cone command to the input of another. 
 🥊 save a list of pdf files / text files as “choose your own name.txt”
 
-`grep` is a command in Linux. It stands for "**G**lobal **R**egular **E**xpression **P**rint" and is used to search for specific patterns of text within files or the output of other commands. `grep` is a powerful tool for text searching and pattern matching, making it essential for analyzing and filtering data in the terminal.
+[`grep`](https://www.gnu.org/software/grep/manual/grep.html) is a command in Linux. It stands for "**G**lobal **R**egular **E**xpression **P**rint" and is used to search for specific patterns of text within files or the output of other commands. `grep` is a powerful tool for text searching and pattern matching, making it essential for analyzing and filtering data in the terminal. <br>
+
+Let's try using `grep` on `workshops.txt` files. 
+```
+grep "Python" workshops.txt
+```
+🔔 **Question:** What happens if you intput 'python' instead of 'Python'? <br>
 
 “ls | grep “pdf” “ and “ls > “test.txt”
 Demonstrate: ls | grep “pdf” > “test.txt”
