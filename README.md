@@ -33,7 +33,7 @@ You'll need to make sure we can use bash on your computer.
 
 * **Windows:** You can install BASH emulator, `Git BASH` via [git for Windows](https://gitforwindows.org).
 * **Mac:** We can use Terminal on Mac. Applications > Terminal
-* **Linux:** We can use Terminal on Linux. _____ > Terminal _
+* **Linux:** We can use Terminal on Linux. Applications > Terminal
 
 ## Is Command Line/Bash not Working on Your Computer?
 
@@ -50,7 +50,7 @@ No installation is necessary from your end - you only need an internet browser
 and a CalNet ID to log in. By using the DataHub, you can save your work and come
 back to it at any time. When you want to return to your saved work, just go
 straight to the [D-Lab DataHub](https://dlab.datahub.berkeley.edu), sign in, and
-you click on the `[Workshop-Name]` folder.
+you click on the `Command-Line` folder.
 
 If you don't have a Berkeley CalNet ID, you can still run these lessons in the cloud, by clicking this button:
 
