@@ -137,6 +137,8 @@ files? There are several programs in bash you can use to do this: `vim`, `nano`,
 and `emacs` are some examples.
 
 We will try using `nano` to read and edit files. 
+<br>
+![](../images/nano.png)
 
 1. **Open a file**: `nano text.txt` to open up a file called `text.txt`.
 2. **Edit text**: Start typing to edit the file directly. Use arrow keys to move the cursor. 
