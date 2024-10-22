@@ -101,21 +101,25 @@ In specifying file paths, you can use the `~` as a shorthand for your home direc
 To make new directories and files, we use `mkdir` and `touch`<br>
 * `mkdir test`: This will make a new directory called `test`. <br>
 * `touch test.txt`: This will create a file named `test.txt`.<br>
+
 🥊**4-1**: Make a folder with a different name. Make a text file within the folder.<br>
 
 To copy or move files and directories, we use `cp` and `mv`. <br>
 * `cp file_name destination`: Copy and paste. There are two arguments here: the source and the destination. Try copying `test.txt` to the `solutions` folder. You need to add in the relative path when setting the destination (`solutions/test.txt`).<br>
 * `cp -r`: Bash commands sometimes come with **flags**, which are additional specifications to how we run the command. Flags are always preceded by one or two dashes. The `-r` flag for `cp` indicates we should do a recursive copy. This is specifically for folders, which may have multiple copies to do.<br>
+
 🥊**4-2**: Copy the text file to another folder. <br>
 * `mv`: Moving a file is just like copying, but it does not leave a version in the source. Create a file called `test2.txt` and move it to the `img` folder.<br>
+
 🥊**4-3**:  Move the file to a different directory.<br>
 🥊**4-4**:  Rename a file using mv<br>
 
 To remove files and directories, we use `rm`. <br>
-* `rm`: Removing a file. Use the `-rf` flag for folders: this is the `-r` flag<br>
-  (recursive) and `-f` flag (force the removal) combined.<br>
+* `rm`: Removing a file. Use the `-rf` flag for folders: this is the `-r` flag (recursive) and `-f` flag (force the removal) combined.<br>
+
 🥊**4-5**:  Navigate to `solutions`, and remove `test.txt` and `test`.<br>
 🥊**4-6**:  Navigate to `img`, and remove `test2.txt`.<br>
+
 ⚠️ **Warning:** DO NOT EVER DO `rm -rf`. This will remove everything from your computer.<br>
 
 
@@ -150,6 +154,7 @@ This is what the command line interface with Nano looks like:
 2. **Edit text**: Start typing to edit the file directly. Use arrow keys to move the cursor. 
 3. **Save your changes**: Press `Ctrl + O` (WriteOut) to save. You will be prompted to confirm the file name. Press `Enter` to confirm. 
 4. **Exit `nano`**: Press `Ctrl + X` to exit. <br>
+
 🥊**5-1**:  Open `Workshops.txt` and add this workshop to the list of workshops.<br>
 
 
@@ -159,6 +164,7 @@ This is what the command line interface with Nano looks like:
 One of advantages of using the command line interface is the flexibility in interacting with the coputer when doing complex tasts. Redirection and pipes are two important operaters that allow simplifying workflows and automating tasks. 
 * **Redirection** (`>`, `>>`): Sends the output of a command to a file.
 * **Pipes** (`|`); Connects the output of cone command to the input of another. <br>
+
 🥊**6-1**:  save a list of pdf files / text files as “choose your own name.txt”
 
 [`grep`](https://www.gnu.org/software/grep/manual/grep.html) is a command in Linux. It stands for "**G**lobal **R**egular **E**xpression **P**rint" and is used to search for specific patterns of text within files or the output of other commands. `grep` is a powerful tool for text searching and pattern matching, making it essential for analyzing and filtering data in the terminal. <br>
@@ -168,10 +174,8 @@ Let's try using `grep` on `workshops.txt` files.
 grep "Python" workshops.txt
 ```
 🔔 **Question:** What happens if you intput 'python' instead of 'Python'? <br>
-🥊**6-2**: Let's obtain list of files from a directory, search for filenames that include "pdf", and save that list as `files.txt`. Try to do this in one line of code. <br>
 
-“ls | grep “pdf” “ and “ls > “test.txt”
-Demonstrate: ls | grep “pdf” > “test.txt”
+🥊**6-2**: Let's obtain list of files from a directory, search for filenames that include "pdf", and save that list as `files.txt`. Try to do this in one line of code. <br>
 
 
 ## Reference: Keyboard Shortcuts
