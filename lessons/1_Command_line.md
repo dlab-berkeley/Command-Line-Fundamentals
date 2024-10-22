@@ -104,7 +104,7 @@ To make new directories and files, we use `mkdir` and `touch`<br>
 🥊 Make a folder with a different name. Make a text file within the folder.<br>
 
 To copy or move files and directories, we use `cp` and `mv`. <br>
-* `cp`: Copy and paste. There are two arguments here: the source and the destination. Try copying `test.txt` to the `solutions` folder. You need to add in the relative path when setting the destination (`solutions/test.txt`).<br>
+* `cp file_name destination`: Copy and paste. There are two arguments here: the source and the destination. Try copying `test.txt` to the `solutions` folder. You need to add in the relative path when setting the destination (`solutions/test.txt`).<br>
 * `cp -r`: Bash commands sometimes come with **flags**, which are additional specifications to how we run the command. Flags are always preceded by one or two dashes. The `-r` flag for `cp` indicates we should do a recursive copy. This is specifically for folders, which may have multiple copies to do.<br>
 🥊 Copy the text file to another folder. <br>
 * `mv`: Moving a file is just like copying, but it does not leave a version in the source. Create a file called `test2.txt` and move it to the `img` folder.<br>
