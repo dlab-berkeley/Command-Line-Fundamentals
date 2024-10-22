@@ -1,0 +1,43 @@
+Title	Category
+Python Fundamentals: Part 1	Python
+Python Fundamentals: Part 2	Python
+Python Fundamentals: Part 3	Python
+Python Fundamentals: Part 4	Python
+Python Fundamentals: Part 5	Python
+Python Fundamentals: Part 6	Python
+Python Data Wrangling and Manipulation with Pandas: Part 1	Python
+Python Data Wrangling and Manipulation with Pandas: Part 2	Python
+Python Data Visualization: Part 1	Python
+Python Data Visualization: Part 2	Python
+Python Machine Learning Fundamentals: Part 1	Python
+Python Machine Learning Fundamentals: Part 2	Python
+Python Text Analysis: Part 1	Python
+Python Text Analysis: Part 2	Python
+Python Text Analysis: Part 3	Python
+Python Deep Learning: Part 1	Python
+Python Deep Learning: Part 2	Python
+Python Web APIs	Python
+Python Web Scraping	Python
+Python GPT Fundamentals	Python
+R Data Wrangling and Manipulation: Part 1	R
+R Data Wrangling and Manipulation: Part 2	R
+R Deep Learning: Part 1	R
+R Deep Learning: Part 2	R
+R Fundamentals: Part 1	R
+R Fundamentals: Part 2	R
+R Fundamentals: Part 3	R
+R Fundamentals: Part 4	R
+R Machine Learning with tidymodels: Part 1	R
+R Machine Learning with tidymodels: Part 2	R
+R Data Visualization	R
+R Copilot Assisted Coding Workshop	R
+Python Geospatial Fundamentals: Part 1	Geospatial / Python
+Python Geospatial Fundamentals: Part 2	Geospatial / Python
+R Geospatial Fundamentals: Part 1	Geospatial / R
+R Geospatial Fundamentals: Part 2	Geospatial / R
+R Geospatial Fundamentals: Part 3	Geospatial / R
+QGIS Geospatial Fundamentals: Part 1	Geospatial
+QGIS Geospatial Fundamentals: Part 2	Geospatial
+Stata Fundamentals: Part 1	Stata
+Stata Fundamentals: Part 2	Stata
+Stata Fundamentals: Part 3	Stata
