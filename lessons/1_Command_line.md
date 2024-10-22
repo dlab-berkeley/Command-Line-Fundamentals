@@ -207,14 +207,3 @@ Notes: things we might want to cover + cheat sheets:
 8. `grep [pattern] [file]` – Search for patterns in files
 
 
-
-## Bash Challenge
-
-You now have a working understanding of bash! Go ahead and open
-`02_bash_challenge.md` and give the challenges a shot!
-
-***
-asteriks
-____
-underline
-
