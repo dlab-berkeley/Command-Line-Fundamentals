@@ -136,11 +136,12 @@ These commands are useful for quickly viewing files, but how about editing
 files? There are several programs in bash you can use to do this: `vim`, `nano`,
 and `emacs` are some examples.
 
-We will try using `nano` to read and edit files. 
+We will try using `nano` to read and edit files. `nano workshops.txt` to open `workshops.txt` file with nano.
 <br>
 ![](../images/nano.png)
+<br>
 
-1. **Open a file**: `nano text.txt` to open up a file called `text.txt`.
+1. **Open a file**: `nano filename.txt' to open up a file called `filename.txt`.
 2. **Edit text**: Start typing to edit the file directly. Use arrow keys to move the cursor. 
 3. **Save your changes**: Press `Ctrl + O` (WriteOut) to save. You will be prompted to confirm the file name. Press `Enter` to confirm. 
 4. **Exit `nano`**: Press `Ctrl + X` to exit. <br>
