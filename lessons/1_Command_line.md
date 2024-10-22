@@ -129,7 +129,7 @@ How can we view files? This depends on the type of file we're working with, whic
 * `cat`: View all the contents of a file. This command is short for "concatenate", because it can be applied to multiple files.
 * `less`: This is useful when your file is too big for `cat`, and you quickly just want to see a small portion of it.
 
-Let's move to `data` folder and use `cat` and `less` to read `workshops.txt` file. 
+Let's move to `data` folder and use `cat` and `less` to read `workshops.txt` file. <br>
 🔔 **Question:** When should we use `less` instead of `cat`? <br>
 
 These commands are useful for quickly viewing files, but how about editing
@@ -137,11 +137,13 @@ files? There are several programs in bash you can use to do this: `vim`, `nano`,
 and `emacs` are some examples.
 
 We will try using `nano` to read and edit files. 
+<br>
+![](../images/nano.png)
 
 1. **Open a file**: `nano text.txt` to open up a file called `text.txt`.
 2. **Edit text**: Start typing to edit the file directly. Use arrow keys to move the cursor. 
 3. **Save your changes**: Press `Ctrl + O` (WriteOut) to save. You will be prompted to confirm the file name. Press `Enter` to confirm. 
-4. **Exit `nano`**: Press `Ctrl + X` to exit. 
+4. **Exit `nano`**: Press `Ctrl + X` to exit. <br>
 🥊 Open `Workshops.txt` and add this workshop to the list of workshops.<br>
 
 
@@ -150,7 +152,7 @@ We will try using `nano` to read and edit files.
 ## Dealing with outputs: Pipes and redirection
 One of advantages of using the command line interface is the flexibility in interacting with the coputer when doing complex tasts. Redirection and pipes are two important operaters that allow simplifying workflows and automating tasks. 
 * **Redirection** (`>`, `>>`): Sends the output of a command to a file.
-* **Pipes** (`|`); Connects the output of cone command to the input of another. 
+* **Pipes** (`|`); Connects the output of cone command to the input of another. <br>
 🥊 save a list of pdf files / text files as “choose your own name.txt”
 
 [`grep`](https://www.gnu.org/software/grep/manual/grep.html) is a command in Linux. It stands for "**G**lobal **R**egular **E**xpression **P**rint" and is used to search for specific patterns of text within files or the output of other commands. `grep` is a powerful tool for text searching and pattern matching, making it essential for analyzing and filtering data in the terminal. <br>
