@@ -31,7 +31,7 @@ instructions.
 
 You'll need to make sure we can use bash on your computer. 
 
-* **Windows:** You can install `git bash` via [git for Windows](https://gitforwindows.org).
+* **Windows:** You can install BASH emulator, `Git BASH` via [git for Windows](https://gitforwindows.org).
 * **Mac:** We can use Terminal on Mac. Applications > Terminal
 * **Linux:** We can use Terminal on Linux. _____ > Terminal _
 
