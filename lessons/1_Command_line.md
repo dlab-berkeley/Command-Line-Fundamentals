@@ -56,6 +56,11 @@ The anatomy of a basic terminal prompt is simple: you'll usually have a username
 
 Your prompt might not look like this! Some prompts can be pretty fancy, and contain a lot of useful information to the user. The only thing that matters right now is entering input.<br>
 
+### Basic Structure of a Command
+**Command Syntax: `[command] [options] [arguments]`**
+- **Command**: The program you want to run (e.g., ls).
+- **Options/Flags**: Modify the behavior of the command (e.g., -a for ls).
+- **Arguments**: Input files, directories, or additional data (e.g., ls /home/user).
 
 
 ---
@@ -74,6 +79,7 @@ The shell allows us to interact with our file system in different ways: navigati
 What's the working directory? At any given point in a terminal, we'll be located in a particular spot in our filesystem. This location can be identified by the series of folders we need to look into to get there. The working directory is our current location.
 
 💡 **Tip**: at any point, you can press `TAB` to autocomplete a partially completed command. <br>
+
 
 ### Changing Directories
 
@@ -123,6 +129,16 @@ To remove files and directories, we use `rm`. <br>
 ⚠️ **Warning:** DO NOT EVER DO `rm -rf`. This will remove everything from your computer.<br>
 
 
+#### Wildcard (*)
+The wildcard `*` in the command line is a symbol used to represent any number of characters in file or directory names. It helps match multiple files or directories without specifying their full names. For example, `*.txt` would match all files ending with `.txt`, and `file*` would match all files starting with "file," regardless of what comes after (e.g., `file1`, `file2`, `file_name`). <br>
+
+This is useful for handling multiple files or directories at once in commands like `ls`, `rm`, `cp`, and more.<br>
+
+| Instruction                          | Command Example                    |
+|--------------------------------------|------------------------------------|
+| Match any characters in filenames    | `ls *.txt` (lists all `.txt` files)|
+| Match all files starting with "file" | `rm file*` (removes all files starting with "file") |
+| Match all files in a directory       | `cp * /destination` (copies all files to destination) |
 
 ---
 
@@ -177,6 +193,14 @@ grep "Python" workshops.txt
 
 🥊**6-2**: Let's obtain list of files from a directory, search for filenames that include "pdf", and save that list as `pdffiles.txt`. Try to do this in one line of code. <br>
 
+---
+**_Key Points_:**  
+1. We use the command line interface because it can be more powerful and flexible than using a graphical user interface (GUI).
+2. A basic BASH command consists of a command name, options (flags), and arguments.
+3. Key commands like pwd, cd, ls, mkdir, and rm help navigate and manage files in the system.
+4. Redirection (>, >>) and piping (|) allow users to manipulate the input and output of commands efficiently.
+5. Combining commands and using wildcards allows for more advanced file operations and task management.
+---
 
 ## Reference: Keyboard Shortcuts
 
