@@ -38,7 +38,7 @@
 |-----------------------------------|----------------------------|
 | Redirect command output to file   | `command > file_name`      |
 | Append command output to file     | `command >> file_name`     |
-| Use output of one command as input to another | `command1 `| `command2`  |
+| Use output of one command as input to another | `command1 `\| `command2`  |
 
 ### **System Information**
 | Instruction                       | Command                    |
@@ -55,7 +55,6 @@
 | Clear terminal screen             | `clear`                    |
 | Show manual for a command         | `man command_name`         |
 | Repeat last command               | `!!`                       |
-| Run command as superuser          | `sudo command`             |
 
 ### **Other Useful Commands**
 | Instruction                       | Command                    |
