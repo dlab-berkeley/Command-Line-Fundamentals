@@ -165,7 +165,7 @@ One of advantages of using the command line interface is the flexibility in inte
 * **Redirection** (`>`, `>>`): Sends the output of a command to a file.
 * **Pipes** (`|`); Connects the output of cone command to the input of another. <br>
 
-🥊**6-1**:  save a list of pdf files / text files as “choose your own name.txt”
+🥊**6-1**:  save a list of files in the working directory as “filenames.txt”
 
 [`grep`](https://www.gnu.org/software/grep/manual/grep.html) is a command in Linux. It stands for "**G**lobal **R**egular **E**xpression **P**rint" and is used to search for specific patterns of text within files or the output of other commands. `grep` is a powerful tool for text searching and pattern matching, making it essential for analyzing and filtering data in the terminal. <br>
 
@@ -175,7 +175,7 @@ grep "Python" workshops.txt
 ```
 🔔 **Question:** What happens if you intput 'python' instead of 'Python'? <br>
 
-🥊**6-2**: Let's obtain list of files from a directory, search for filenames that include "pdf", and save that list as `files.txt`. Try to do this in one line of code. <br>
+🥊**6-2**: Let's obtain list of files from a directory, search for filenames that include "pdf", and save that list as `pdffiles.txt`. Try to do this in one line of code. <br>
 
 
 ## Reference: Keyboard Shortcuts
@@ -194,16 +194,4 @@ familiar with bash:
 * `Ctrl-K`: Cut to end of line.
 * `Ctrl-U`: Cut to beginning of line.
 * `Ctrl-Y`: paste.
-
-Notes: things we might want to cover + cheat sheets: 
-
-1. `clear` – Clears the terminal screen.
-2. `history` – Shows a list of recently executed commands.
-3. `man` – Displays the manual for a command (e.g., `man ls`).
-4. `touch` – Creates a new, empty file.
-5. `echo` – Outputs text or variables (e.g., `echo "Hello"`).
-6. `cat` – Displays file contents.
-7. `head` / `tail` – Shows the first or last few lines of a file.
-8. `grep [pattern] [file]` – Search for patterns in files
-
 
