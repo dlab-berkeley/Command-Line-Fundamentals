@@ -2,10 +2,11 @@
 
 ### **Basic Navigation**
 | Instruction                       | Command                    |
-|-----------------------------------|----------------------------|
+|----------------------------------------|----------------------------|
 | Show current directory            | `pwd`                      |
 | List files in current directory   | `ls`                       |
 | List all files (including hidden) | `ls -a`                    |
+| List files with details (permissions, size) | `ls -l`|
 | Change directory                  | `cd directory_name`        |
 | Go up one directory               | `cd ..`                    |
 
