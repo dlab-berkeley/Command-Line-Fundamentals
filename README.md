@@ -9,7 +9,7 @@ Check D-Lab's [Learning Pathways](https://dlab-berkeley.github.io/dlab-workshops
 
 ## Workshop Goals
 
-In this workshop, we provide an introduction to how to interact with your computer via terminal. We are going to focus on Bash(Bourne-Again SHell) or Zsh(Z shell), which are one of the most commonly used Unix/Linux shells. This workshop is designed to be 1-hour long. 
+In this workshop, we provide a basic introduction to how to interact with your computer via terminal. We are going to focus on Bash(Bourne-Again SHell) or Zsh(Z shell), which are one of the most commonly used Unix/Linux shells. This workshop is designed to be 1-hour long. 
 
 ## Learning Objectives
 
