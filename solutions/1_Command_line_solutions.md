@@ -4,6 +4,7 @@
 ## 3. Navigating File system
 
 🥊**3-1**: Let's navigate to the downloaded workshop folder. <br>
+This path depends on your computer and names of your directories. 
 ```
 cd ~/Downloads/Command-Line-Main
 ```
@@ -12,25 +13,25 @@ cd ~/Downloads/Command-Line-Main
 ### Creating Directories and Files
 🥊**4-1**: Make a folder with a different name. Make a text file within the folder.<br>
 ```
-mkdir Leah
-cd Leah
-touch leah.txt
+mkdir test
+cd test
+touch test.txt
 ```
 
 🥊**4-2**: Copy the text file to another folder. <br>
 ```
-cp leah.txt ../data
-```
-🥊**4-3**:  Move the file to a different directory.<br>
-```
-mv leah.txt ../
-ls
+cp test.txt ../solutions
 ```
 
-🥊**4-4**:  Rename a file using mv<br>
+🥊**4-3**:  Rename a file using mv<br>
 ```
 cd ..
-mv leah.txt test2.txt
+mv test.txt test2.txt
+ls
+```
+🥊**4-4**:  Move the file to a different directory.<br>
+```
+mv test2.txt ../images
 ls
 ```
 
@@ -40,6 +41,7 @@ cd test
 rm test.txt
 ls
 ```
+
 🥊**4-6**:  Navigate to `imgages`, and remove `test.img`.<br>
 ```
 cd images
