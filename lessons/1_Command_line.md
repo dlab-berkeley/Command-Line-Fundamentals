@@ -16,7 +16,7 @@
 A **command line**, or a command-line interface (CLI), is a way to interact with a computer using lines of text. <br>
 **Terminal** is a type of command line interface. It is a software that can print text to your screen and accept keyboard input. <br>
 For Linux and Mac OS, Terminal program is pre-installed.  <br>
-For Windows, there are multiple programs you can install to use BASH. Here is the installation instruction for `Git for Windows`. Here are the other programs you can use on Windows OS. <br>
+For Windows, there are multiple programs you can install to use BASH. Here is the installation instruction for `Git for Windows`. There are other programs, such as [Windows Subsystems for Linux(WSL)](https://ubuntu.com/desktop/wsl) you can use on the Windows OS. <br>
 We will not use `PowerShell` on Windows. PowerShell is a scripting environment that has its own syntax. <br>
 
 ### What is Shell? 
