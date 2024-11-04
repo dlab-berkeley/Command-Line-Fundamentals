@@ -1,9 +1,5 @@
 # D-Lab Command Line Workshop
 
-[![DataHub](https://img.shields.io/badge/launch-datahub-blue)](DATAHUB_LINK_HERE)
-[![Binder](https://mybinder.org/badge_logo.svg)](BINDER_LINK_HERE)
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-
 This repository contains the materials for D-Lab Command Line workshop. 
 
 ### Prerequisites
@@ -26,14 +22,13 @@ After this workshop, you will be able to:
 
 ## Installation Instructions
 
-Before attending the workshop, please ensure you have gone through these
-instructions.
+Before attending the workshop, please ensure you have gone through these instructions.
 
 You'll need to make sure we can use bash on your computer. 
 
-* **Windows:** You can install BASH emulator, `Git BASH` via [git for Windows](https://gitforwindows.org).
+* **Windows:** You can install BASH emulator, `Git BASH` via [git for Windows](https://gitforwindows.org). When you are installing Git, choose "Use the Nano editor by default" 
 * **Mac:** We can use Terminal on Mac. Applications > Terminal
-* **Linux:** We can use Terminal on Linux. Applications > Terminal
+* **Linux:** We can use Terminal on most Linux machines. Applications > Terminal
 
 ## Is Command Line/Bash not Working on Your Computer?
 
