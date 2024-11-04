@@ -30,36 +30,12 @@ You'll need to make sure we can use bash on your computer.
 * **Mac:** We can use Terminal on Mac. Applications > Terminal
 * **Linux:** We can use Terminal on most Linux machines. Applications > Terminal
 
-## Is Command Line/Bash not Working on Your Computer?
-
-If you do not have Bash installed and the materials loaded on your
-workshop by the time it starts, we *strongly* recommend using the UC Berkeley
-Datahub to run the materials for these lessons. You can access the DataHub by
-clicking the following button:
-
-[![DataHub](https://img.shields.io/badge/launch-datahub-blue)](DATAHUB_LINK_HERE)
-
-The DataHub downloads this repository, along with any necessary packages, and
-allows you to run the materials in an RStudio instance on UC Berkeley's servers.
-No installation is necessary from your end - you only need an internet browser
-and a CalNet ID to log in. By using the DataHub, you can save your work and come
-back to it at any time. When you want to return to your saved work, just go
-straight to the [D-Lab DataHub](https://dlab.datahub.berkeley.edu), sign in, and
-you click on the `Command-Line` folder.
-
-If you don't have a Berkeley CalNet ID, you can still run these lessons in the cloud, by clicking this button:
-
-[![Binder](https://mybinder.org/badge_logo.svg)](BINDER_LINK_HERE)
-
-By using this button, however, you cannot save your work.
-
 
 # Additional Resources
 
 Check out the following resources to learn more about Command Line/Bash:
-[Software Carpentry](https://software-carpentry.org/lessons/):
-* [The Unix Shell](http://swcarpentry.github.io/shell-novice/) ([La Terminal de
-  Unix](https://swcarpentry.github.io/shell-novice-es/))
+[Software Carpentry](https://software-carpentry.org/lessons/)
+[The Unix Shell](http://swcarpentry.github.io/shell-novice/) 
 
 
 # About the UC Berkeley D-Lab
