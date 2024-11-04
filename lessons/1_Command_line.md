@@ -15,14 +15,18 @@
 
 A **command line**, or a command-line interface (CLI), is a way to interact with a computer using lines of text. <br>
 **Terminal** is a type of command line interface. It is a software that can print text to your screen and accept keyboard input. <br>
+<br>
 For Linux and Mac OS, Terminal program is pre-installed.  <br>
 For Windows, there are multiple programs you can install to use BASH. Here is the installation instruction for `Git for Windows`. There are other programs, such as [Windows Subsystems for Linux(WSL)](https://ubuntu.com/desktop/wsl) you can use on the Windows OS. <br>
 We will not use `PowerShell` on Windows. PowerShell is a scripting environment that has its own syntax. <br>
 
 ### What is Shell? 
 **Shell** is a programing language we will use to interact with the computer. We can think of terminal as the interface we are using and shell as the language we are using on that interface. We often call it shell scripting language.<br>
+<br>
 **Bash**(The **B**ourne **A**gain **SH**ell) is a type of shell scripting language. <br>
 Your terminal might run a **bash** shell, which is one of the most commonly used shells. There are others shell scripting language. For example, **zsh** or Z shell is starting to be rolled out by default on Macs. At this point, the differences will not matter for this workshop.<br>
+<br>
+
 💡 **Tip**: `ps` will tell you what kind of shell you are using<br>
 
 ### Why and when to use command line? 
@@ -35,7 +39,7 @@ Interacting with computers with command line could be more **powerful, flexible,
 - CLI consumes fewer system resources compared to GUI applications, making it more flexible for remote operations (e.g., managing a server over SSH). <br>
 - Many powerful utilities like grep, awk, sed, ssh, rsync, and system-wide package managers are accessible via CLI and provide functionalities often unavailable or restricted in GUIs.<br>
 - CLI tools often allow users to combine multiple commands using pipes (|) and redirection (>, <) to chain tasks in creative ways. Users can customize workflows through scripts to suit their specific needs. <br>
-
+<br>
 🎬 **Demo**:  For example, I can save a list of files with a certain pattern in a text file. By the end of the workshop, you will be able to do this!
 
 
@@ -111,20 +115,20 @@ To make new directories and files, we use `mkdir` and `touch`<br>
 🥊**4-1**: Make a folder with a different name. Make a text file within the folder.<br>
 
 To copy or move files and directories, we use `cp` and `mv`. <br>
-* `cp file_name destination`: Copy and paste. There are two arguments here: the source and the destination. Try copying `test.txt` to the `solutions` folder. You need to add in the relative path when setting the destination (`solutions/test.txt`).<br>
+* `cp file_name destination`: Copy and paste. There are two arguments here: the source and the destination. <br>
 * `cp -r`: Bash commands sometimes come with **flags**, which are additional specifications to how we run the command. Flags are always preceded by one or two dashes. The `-r` flag for `cp` indicates we should do a recursive copy. This is specifically for folders, which may have multiple copies to do.<br>
 
-🥊**4-2**: Copy the text file to another folder. <br>
+🥊**4-2**: Copy `test.txt` to the `solutions` folder.  <br>
 * `mv`: Moving a file is just like copying, but it does not leave a version in the source. Create a file called `test2.txt` and move it to the `img` folder.<br>
 
-🥊**4-3**:  Move the file to a different directory.<br>
-🥊**4-4**:  Rename a file using mv<br>
+🥊**4-3**:  Rename a `test.txt` file using mv to `test2.txt`<br>
+🥊**4-4**:  Move the `test2.txt` file to a different directory (for example: `images`).<br>
 
 To remove files and directories, we use `rm`. <br>
 * `rm`: Removing a file. Use the `-rf` flag for folders: this is the `-r` flag (recursive) and `-f` flag (force the removal) combined.<br>
 
-🥊**4-5**:  Navigate to `solutions`, and remove `test.txt` and `test`.<br>
-🥊**4-6**:  Navigate to `img`, and remove `test2.txt`.<br>
+🥊**4-5**:  Navigate to `solutions`, and remove `test.txt`.<br>
+🥊**4-6**:  Navigate to `imgages`, and remove `test2.txt`.<br>
 
 ⚠️ **Warning:** DO NOT EVER DO `rm -rf`. This will remove everything from your computer.<br>
 
