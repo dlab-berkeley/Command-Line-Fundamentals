@@ -33,9 +33,9 @@ You'll need to make sure we can use bash on your computer.
 
 # Additional Resources
 
-Check out the following resources to learn more about Command Line/Bash:
-[Software Carpentry](https://software-carpentry.org/lessons/)
-[The Unix Shell](http://swcarpentry.github.io/shell-novice/) 
+Check out the following resources to learn more about Command Line/Bash:<br>
+[Software Carpentry](https://software-carpentry.org/lessons/) <br>
+[The Unix Shell](http://swcarpentry.github.io/shell-novice/) <br>
 
 
 # About the UC Berkeley D-Lab
