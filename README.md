@@ -3,7 +3,7 @@
 This repository contains the materials for D-Lab Command Line workshop. 
 
 ### Prerequisites
-No prior experience in either Bash or Git is necessary.
+No prior experience in either command line or bash is necessary.
 
 Check D-Lab's [Learning Pathways](https://dlab-berkeley.github.io/dlab-workshops/python_path.html) to figure out which of our workshops to take!
 
@@ -26,7 +26,7 @@ Before attending the workshop, please ensure you have gone through these instruc
 
 You'll need to make sure we can use bash on your computer. 
 
-* **Windows:** You can install BASH emulator, `Git BASH` via [git for Windows](https://gitforwindows.org). When you are installing Git, choose "Use the Nano editor by default" 
+* **Windows:** You can install BASH emulator, `Git BASH` via [git for Windows](https://gitforwindows.org). When you are installing Git, choose "Use the Nano editor by default". If you already have another BASH emulator installed (e.g. WSL), we can use your installed program instead.
 * **Mac:** We can use Terminal on Mac. Applications > Terminal
 * **Linux:** We can use Terminal on most Linux machines. Applications > Terminal
 
