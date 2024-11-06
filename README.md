@@ -1,6 +1,6 @@
 # D-Lab Command Line Fundamentals
 
-This repository contains the materials for D-Lab Command Line workshop. 
+This repository contains the materials for D-Lab Command Line Fundamentals workshop. 
 
 ### Prerequisites
 No prior experience in either command line or bash is necessary.
