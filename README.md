@@ -1,4 +1,4 @@
-# D-Lab Command Line Workshop
+# D-Lab Command Line Fundamentals
 
 This repository contains the materials for D-Lab Command Line workshop. 
 
