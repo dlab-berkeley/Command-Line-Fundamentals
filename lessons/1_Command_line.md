@@ -40,7 +40,7 @@ Interacting with computers with command line could be more **powerful, flexible,
 - Many powerful utilities like grep, awk, sed, ssh, rsync, and system-wide package managers are accessible via CLI and provide functionalities often unavailable or restricted in GUIs.<br>
 - CLI tools often allow users to combine multiple commands using pipes (|) and redirection (>, <) to chain tasks in creative ways. Users can customize workflows through scripts to suit their specific needs. <br>
 <br>
-🎬 **Demo**:  For example, I can save a list of files with a certain pattern in a text file. By the end of the workshop, you will be able to do this!
+🎬 **Demo:** For example, I can save a list of files with a certain pattern in a text file. By the end of the workshop, you will be able to do this!
 
 
 
@@ -182,7 +182,7 @@ This is what the command line interface with Nano looks like:
 
 ## 6. Dealing with outputs: Pipes and redirection
 One of advantages of using the command line interface is the flexibility in interacting with the coputer when doing complex tasts. Redirection and pipes are two important operaters that allow simplifying workflows and automating tasks. 
-* **Redirection** (`>`, `>>`): Sends the output of a command to a file.
+* **Redirection** (`>`, `>>`): Sends the output of a command to a file. `>` redirects output and verwrites the content of the specified file. `>>` appends the output to the end of the specified file without overwriting its existing contents. It also creates the file if it does not exist. 
 * **Pipes** (`|`); Connects the output of cone command to the input of another. <br>
 
 🥊**6-1**:  save a list of files in the working directory as “filenames.txt”
