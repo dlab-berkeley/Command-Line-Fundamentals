@@ -155,7 +155,7 @@ How can we view files? This depends on the type of file we're working with, whic
 
 Let's move to `data` folder and use `cat` and `less` to read `workshops.txt` file. <br>
 🔔 **Question:** When should we use `less` instead of `cat`? <br>
-
+💡 **Tip**: `Ctrl-C` will abort process. This shortcut comes in very handy!
 These commands are useful for quickly viewing files, but how about editing
 files? There are several programs in bash you can use to do this: `vim`, `nano`,
 and `emacs` are some examples.
