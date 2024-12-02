@@ -183,7 +183,7 @@ This is what the command line interface with Nano looks like:
 ## 6. Dealing with outputs: Pipes and redirection
 One of advantages of using the command line interface is the flexibility in interacting with the coputer when doing complex tasts. Redirection and pipes are two important operaters that allow simplifying workflows and automating tasks. 
 * **Redirection** (`>`, `>>`): Sends the output of a command to a file. `>` redirects output and verwrites the content of the specified file. `>>` appends the output to the end of the specified file without overwriting its existing contents. It also creates the file if it does not exist. 
-* **Pipes** (`|`); Connects the output of cone command to the input of another. <br>
+* **Pipes** (`|`): Connects the output of cone command to the input of another. <br>
 
 🥊**6-1**:  save a list of files in the working directory as “filenames.txt”
 
