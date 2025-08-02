@@ -2,7 +2,7 @@
 
 This repository contains the materials for D-Lab Command Line Fundamentals workshop. 
 
-### Prerequisites
+## Prerequisites
 No prior experience in either command line or bash is necessary.
 
 Check out D-Lab’s [Workshop Catalog](https://dlab-berkeley.github.io/dlab-workshops/) to browse all workshops, see what’s running now, and review prerequisites.
