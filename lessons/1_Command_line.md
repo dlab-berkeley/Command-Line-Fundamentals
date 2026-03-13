@@ -125,10 +125,10 @@ To copy or move files and directories, we use `cp` and `mv`. <br>
 🥊**4-4**:  Move the `test2.txt` file to a different directory (for example: `images`).<br>
 
 To remove files and directories, we use `rm`. <br>
-* `rm`: Removing a file. Use the `-rf` flag for folders: this is the `-r` flag (recursive) and `-f` flag (force the removal) combined.<br>
+* `rm`: Removing a file. Use the `-r` flag for folders to remove directories recursively.<br>
 
 🥊**4-5**:  Navigate to `solutions`, and remove `test.txt`.<br>
-🥊**4-6**:  Navigate to `imgages`, and remove `test2.txt`.<br>
+🥊**4-6**:  Navigate to `images`, and remove `test2.txt`.<br>
 
 ⚠️ **Warning:** DO NOT EVER DO `rm -rf`. This will remove everything from your computer.<br>
 
@@ -155,7 +155,8 @@ How can we view files? This depends on the type of file we're working with, whic
 
 Let's move to `data` folder and use `cat` and `less` to read `workshops.txt` file. <br>
 🔔 **Question:** When should we use `less` instead of `cat`? <br>
-💡 **Tip**: `Ctrl-C` will abort process. This shortcut comes in very handy!
+💡 **Tip**: `Ctrl-C` will abort process. This shortcut comes in very handy!<br>
+
 These commands are useful for quickly viewing files, but how about editing
 files? There are several programs in bash you can use to do this: `vim`, `nano`,
 and `emacs` are some examples.
@@ -181,9 +182,9 @@ This is what the command line interface with Nano looks like:
 ---
 
 ## 6. Dealing with outputs: Pipes and redirection
-One of advantages of using the command line interface is the flexibility in interacting with the coputer when doing complex tasts. Redirection and pipes are two important operaters that allow simplifying workflows and automating tasks. 
-* **Redirection** (`>`, `>>`): Sends the output of a command to a file. `>` redirects output and verwrites the content of the specified file. `>>` appends the output to the end of the specified file without overwriting its existing contents. It also creates the file if it does not exist. 
-* **Pipes** (`|`): Connects the output of cone command to the input of another. <br>
+One of advantages of using the command line interface is the flexibility in interacting with the computer when doing complex tasks. Redirection and pipes are two important operators that allow simplifying workflows and automating tasks. 
+* **Redirection** (`>`, `>>`): Sends the output of a command to a file. `>` redirects output and overwrites the content of the specified file. `>>` appends the output to the end of the specified file without overwriting its existing contents. It also creates the file if it does not exist. 
+* **Pipes** (`|`): Connects the output of one command to the input of another. <br>
 
 🥊**6-1**:  save a list of files in the working directory as “filenames.txt”
 

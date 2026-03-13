@@ -27,6 +27,8 @@ Before attending the workshop, please ensure you have gone through these instruc
 You'll need to make sure we can use bash on your computer. 
 
 * **Windows:** You can install BASH emulator, `Git BASH` via [git for Windows](https://gitforwindows.org). When you are installing Git, choose "Use the Nano editor by default". If you already have another BASH emulator installed (e.g. WSL), we can use your installed program instead.
+
+  **Note:** Git Bash on Windows sets its home directory to `/c/Users/YourUsername` rather than the Windows `C:\` drive root. If you download the workshop materials to your Downloads folder, you can navigate there with `cd ~/Downloads/Command-Line-Fundamentals-main`. Alternatively, you can move the workshop folder to your Git Bash home directory (type `cd ~` then `pwd` to see where that is).
 * **Mac:** We can use Terminal on Mac. Applications > Terminal
 * **Linux:** We can use Terminal on most Linux machines. Applications > Terminal
 
