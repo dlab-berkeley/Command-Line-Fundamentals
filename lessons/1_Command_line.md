@@ -128,7 +128,7 @@ To remove files and directories, we use `rm`. <br>
 * `rm`: Removing a file. Use the `-rf` flag for folders: this is the `-r` flag (recursive) and `-f` flag (force the removal) combined.<br>
 
 🥊**4-5**:  Navigate to `solutions`, and remove `test.txt`.<br>
-🥊**4-6**:  Navigate to `imgages`, and remove `test2.txt`.<br>
+🥊**4-6**:  Navigate to `images`, and remove `test2.txt`.<br>
 
 ⚠️ **Warning:** DO NOT EVER DO `rm -rf`. This will remove everything from your computer.<br>
 
